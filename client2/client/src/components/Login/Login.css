@@ -1,0 +1,49 @@
+/* Styling for the form container */
+.form-container2 {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+/* Styling for the input fields */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: black;
+}
+
+/* Styling for the submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff5722;
+}
+
+.form-container2 h3 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.form-container2 p {
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+}
